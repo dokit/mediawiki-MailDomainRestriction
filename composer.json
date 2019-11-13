@@ -1,4 +1,5 @@
 {
     "name": "dokit/mail-domain-restriction",
-    "type": "mediawiki-extension"
+    "type": "mediawiki-extension",
+    "license": "MIT"
 }

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pierre Boutet"
+		]
+	},
+	"mailDomainRestriction-desc": "Restrict domain of users emails",
+	"maildomainrestriction-mailisBlacklisted": "Email is from a forbidden domain.",
+	"maildomainrestriction-mailisnotallowed": "Email isn't from an allowed domain.",
+	"maildomainrestriction-error-allowedmail": "Please use an email from @$1."
+}

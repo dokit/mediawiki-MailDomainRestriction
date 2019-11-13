@@ -1,0 +1,33 @@
+{
+	"name": "MailDomainRestriction",
+	"author": [
+		"Pierre Boutet"
+	],
+	"version": "1.0.0",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"descriptionmsg": "mailDomainRestriction-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"MessagesDirs": {
+		"MailDomainRestriction": [
+			"i18n"
+		]
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+		    "MailDomainRestrictionPreAuthenticationProvider": {
+		        "class": "MailDomainRestriction\\PreAuthenticationProvider"
+		    }
+		}
+	    },
+	"AutoloadClasses": {
+		"MailDomainRestriction\\PreAuthenticationProvider": "includes/PreAuthenticationProvider.php"
+	},
+	"config": {
+		"MailDomainRestrictionWhitelist": [],
+		"MailDomainRestrictionBlacklist": []
+	},
+	"manifest_version": 1
+}
